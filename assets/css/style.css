@@ -78,3 +78,13 @@ h1 {
   height: 10px;
   background-color: #FFF;
 }
+
+.encaixe {
+  width: 20px;
+  height: 20px;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: -5px;
+}
