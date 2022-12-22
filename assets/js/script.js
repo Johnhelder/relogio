@@ -11,6 +11,8 @@ function updateClock(){
   let second = now.getSeconds();
   
   digitalElement.innerHTML = `${fixZero(hour)}:${fixZero(minute)}:${fixZero(second)}`;
+
+  let sDeg = ((360 / 60) * second) - 90;
 }
 
 function fixZero(time){
